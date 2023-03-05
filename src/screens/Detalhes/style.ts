@@ -40,8 +40,9 @@ export const styles = StyleSheet.create({
     },
 
     productHeader:{
+        width: 327,
         flexDirection: 'row',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center',
     },
 
@@ -56,7 +57,20 @@ export const styles = StyleSheet.create({
     },
 
     productText:{
+        marginTop: 8,
+        fontSize: 14,
+    },
 
+    boldText: {
+        fontWeight: 'bold',
+        fontSize: 14,
+        marginTop: 16
+    },
+
+    paymentHolder: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
     },
 
 })
