@@ -6,8 +6,19 @@ export const styles = StyleSheet.create({
         backgroundColor: '#EDECEE',
     },
 
-    productInfoHolder:{
-        flex:0.5,
+    contentContainer:{
+        flex: 1,
+    },
+
+    goBackIcon: {
+        marginTop: 40,
+        marginLeft: 24,
+        marginBottom: 8,
+        justifyContent: 'center',
+    },
+
+    productInfoHolder: {
+        flex: 0.5,
         flexDirection: 'column',
         alignItems: 'flex-start',
         marginLeft: 24,
@@ -15,48 +26,53 @@ export const styles = StyleSheet.create({
         marginVertical: 24,
     },
 
-    sellerHolder:{
+    sellerHolder: {
         flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'flex-start'
     },
 
-    sellerPhoto:{
+    sellerPhoto: {
         marginRight: 8
     },
 
-    sellerName:{
+    sellerName: {
         fontSize: 14,
     },
 
-    productStatus:{
+    productStatus: {
         width: 43,
-        heifht: 17,
+        height: 17,
         backgroundColor: '#D9D8DA',
         borderRadius: 6,
         alignItems: 'center',
         justifyContent: 'center',
-        marginVertical: 24,
+        marginTop: 24,
+    },
+
+    productStatusText: {
         fontSize: 10,
     },
 
-    productHeader:{
+    productHeader: {
         width: 327,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
     },
 
-    produtcName:{
+    produtcName: {
         fontWeight: 'bold',
         fontSize: 20
     },
 
-    productPrice:{
+    productPrice: {
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        color: '#647AC7'
     },
 
-    productText:{
+    productText: {
         marginTop: 8,
         fontSize: 14,
     },
@@ -73,4 +89,21 @@ export const styles = StyleSheet.create({
         justifyContent: 'flex-start',
     },
 
+    bottomMenu: {
+        flex: 0.1,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        backgroundColor: '#F7F7F8',
+    },
+
+    contactButton:{
+        width: 169,
+        height: 42,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#364D9D',
+        borderRadius: 6,
+    },
 })
